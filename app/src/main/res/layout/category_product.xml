@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/img_List"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:src="@drawable/jadul"/>
+
+    <TextView
+        android:id="@+id/tv_des_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/tv_des_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Name"/>
+
+    <TextView
+        android:id="@+id/tv_des_slug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product Slug"/>
+    <TextView
+        android:id="@+id/tv_des_qty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qty Product"/>
+    <TextView
+        android:id="@+id/tv_mrc_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merchant Name"/>
+    <TextView
+        android:id="@+id/tv_mrc_slug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merchant Slug"/>
+    <TextView
+        android:id="@+id/tv_ctgry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category Name"/>
+
+
+</LinearLayout>
